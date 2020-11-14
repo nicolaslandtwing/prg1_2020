@@ -1,7 +1,7 @@
 package ch.teko.prg.tag01.W0rk;
 
-public class Pkw {
-    //Instanzvariabeln
+public class Pkw{
+    //Instanzvariabeln (Variablen)
 
     private String marke;
     private String modell;
@@ -38,6 +38,5 @@ public class Pkw {
     public void setps(int ps){
         this.ps = ps;
     }
-
 
 }
