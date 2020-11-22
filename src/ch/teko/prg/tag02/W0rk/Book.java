@@ -6,13 +6,16 @@ public class Book {
     private String autor;
     private Double preis;
     private int buydate;
+    private float test;
 
     //Konstruktor
     public Book(String titel, String autor) {
         this.titel=titel;
         this.autor=autor;
         this.preis=0.0;
-        this.buydate=1;
+        this.buydate=-1;
+
+
     }
 
     public Book(String titel, String autor, double preis, int buydate) {
@@ -25,17 +28,14 @@ public class Book {
     //Methoden
 
     public String getTitel(){
-        this.titel=titel;
         return titel;
     }
 
     public String getAutor(){
-        this.autor=autor;
         return autor;
     }
 
     public Double getPreis(){
-        this.preis=preis;
         return preis;
     }
 
@@ -44,7 +44,6 @@ public class Book {
     }
 
     public int getBuydate(){
-        this.buydate=buydate;
         return buydate;
     }
 

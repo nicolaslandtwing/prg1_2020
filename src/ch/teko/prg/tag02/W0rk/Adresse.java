@@ -18,8 +18,7 @@ public class Adresse {
         return strasse;
     }
 
-    public void setStrasse(String strasse) {
-        this.strasse = strasse;
+    public void setStrasse(String strasse) { this.strasse = strasse;
     }
 
     public int getNummer() {
