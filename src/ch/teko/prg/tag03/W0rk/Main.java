@@ -14,8 +14,12 @@ public class Main {
         System.out.println(quadrat.getFlaeche());
     */
 
-    Input.input();
-    System.out.println("Resultat: " + Calculate.sum());
+    Input Meinezahlen = new Input();
+    Meinezahlen.setWert1(Meinezahlen.input1());
+    Meinezahlen.setWert2(Meinezahlen.input2());
+    Calculate Rechnung1 = new Calculate (Meinezahlen.getWert1(), Meinezahlen.getWert2());
+    Rechnung1.sum();
+    System.out.println("Resultat: " + Rechnung1.getSumme());
     }
 
 }
