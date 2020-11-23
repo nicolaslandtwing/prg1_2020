@@ -12,18 +12,12 @@ public Input(){
     this.wert2=0;
 }
 
-    public int input1() {
+    public int input() {
+        private int wert;
         Scanner Input = new Scanner(System.in);
         System.out.println("\nEnter Wert1: ");
-        wert1 = Input.nextInt();
-        return wert1;
-    }
-
-    public int input2() {
-        Scanner Input = new Scanner (System.in);
-        System.out.println ("\nEnter Wert2: ");
-        wert2 = Input.nextInt();
-        return wert2;
+        wert = Input.nextInt();
+        return wert;
     }
 
     public void setWert1(int wert1) {

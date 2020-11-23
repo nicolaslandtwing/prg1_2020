@@ -15,8 +15,8 @@ public class Main {
     */
 
     Input Meinezahlen = new Input();
-    Meinezahlen.setWert1(Meinezahlen.input1());
-    Meinezahlen.setWert2(Meinezahlen.input2());
+    Meinezahlen.setWert1(Meinezahlen.input());
+    Meinezahlen.setWert2(Meinezahlen.input());
     Calculate Rechnung1 = new Calculate (Meinezahlen.getWert1(), Meinezahlen.getWert2());
     Rechnung1.sum();
     System.out.println("Resultat: " + Rechnung1.getSumme());
