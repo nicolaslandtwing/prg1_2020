@@ -13,9 +13,9 @@ public Input(){
 }
 
     public int input() {
-        private int wert;
+        int wert;
         Scanner Input = new Scanner(System.in);
-        System.out.println("\nEnter Wert1: ");
+        System.out.println("\nGeben Sie einen Wert ein: ");
         wert = Input.nextInt();
         return wert;
     }

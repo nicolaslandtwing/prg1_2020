@@ -19,7 +19,7 @@ public class Main {
     Meinezahlen.setWert2(Meinezahlen.input());
     Calculate Rechnung1 = new Calculate (Meinezahlen.getWert1(), Meinezahlen.getWert2());
     Rechnung1.sum();
-    System.out.println("Resultat: " + Rechnung1.getSumme());
+    System.out.println("Resultat von Wert 1 und Wert 2 ist " + Rechnung1.getSumme());
     }
 
 }
