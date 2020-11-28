@@ -64,12 +64,20 @@ public class Rectangle {
     }
 
     public double getFlaeche (){
-        double flaeche = breite * laenge;
-        return flaeche;
+       return breite * laenge;
     }
     public void returnFlaeche(){
         double flaeche = breite * laenge;
         System.out.println(flaeche);
     }
+
+    /*
+    ODER zweite Methode ruft erste Methode auf
+
+    public void returnFlaeche() {
+        System.out.println("Fläche ist: " + this.returnFlaeche());
+
+    }
+*/
 
 }

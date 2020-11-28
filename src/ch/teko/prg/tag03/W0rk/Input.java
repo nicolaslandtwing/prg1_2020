@@ -7,9 +7,9 @@ public class Input {
     private int wert1;
     private int wert2;
 
-public Input(){
-    this.wert1=0;
-    this.wert2=0;
+    public Input(){
+        this.wert1=0;
+        this.wert2=0;
 }
 
     public int input() {
