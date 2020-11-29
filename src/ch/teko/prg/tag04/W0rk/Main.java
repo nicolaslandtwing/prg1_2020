@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("zweite for Schleife:");
         for (int i = 1; i <= 10; i = i + 2) {
-            System.out.print(" " + i);
+             System.out.print(" " + i);
         }
 
         System.out.println(); // Zeilenumbruch
@@ -41,19 +41,23 @@ public class Main {
         System.out.println(); // Zeilenumbruch
 */
 
-        for (int x = 0; x < 9; x++) {
-            for(x=0; x<1;x++) {
-                System.out.println("*");
+       for (int start = 0; start < 2; start++) {
+            for(int x=0; x<1;x++) {
+                System.out.printf("*");
             }
-            for(x=0; x<2;x++) {
-                System.out.println("*");
+            System.out.println();
+            for(int y=0; y<2;y++) {
+                System.out.printf("*");
             }
-            for(x=0; x<3;x++) {
-                System.out.println("*");
+            System.out.println();
+            for(int z=0; z<3;z++) {
+                System.out.printf("*");
             }
-            for(x=0; x<4;x++) {
-                System.out.println("*");
+            System.out.println();
+            for(int a=0; a<4;a++) {
+                System.out.printf("*");
             }
+            System.out.println();
         }
     }
 }
