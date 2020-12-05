@@ -20,7 +20,7 @@ public class Kontrollstruktur {
         this.name = name;
     }
 
-    public Double getVersion() {
+    public double getVersion() {
         return version;
     }
 
@@ -28,21 +28,21 @@ public class Kontrollstruktur {
         this.version = version;
     }
 
-    public double calculatePrice(int Alter) {
-        double Preis;
-        if (Alter < 6) {
-            Preis = 0;
-        } else if (Alter >= 6 && Alter < 12) {
-            Preis = 5.0;
-        } else if (Alter >= 12 && Alter < 18) {
-            Preis = 10.0;
+    public double calculatePrice(int alter) {
+        double preis;
+        if (alter < 6) {
+            preis = 0;
+        } else if (alter >= 6 && alter < 12) {
+            preis = 5.0;
+        } else if (alter >= 12 && alter < 18) {
+            preis = 10.0;
         } else {
-            Preis = 15;
-            if (Alter >= 65) {
-                Preis = Preis / 2;
+            preis = 15;
+            if (alter >= 65) {
+                preis = preis / 2;
             }
         }
-        return Preis;
+        return preis;
     }
 
     public void testEvaluation(int Punkte) {

@@ -31,7 +31,7 @@ public class LoopDemo {
             i++;
         }
 
-        int k = numberOfStars;
+        /*int k = numberOfStars;
         while (k > 0) {
             System.out.println();
             int l = 0;
@@ -40,7 +40,7 @@ public class LoopDemo {
                 l++;
             }
             k--;
-        }
+        }*/
 
     }
 
