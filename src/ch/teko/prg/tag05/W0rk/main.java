@@ -5,16 +5,18 @@ import java.util.Arrays;
 
 public class main {
     public static void main(String[] args) {
-         /*
-        double[] Array;
-        Array = new double[5];
-        String[] name = {"Baloon1", "Baloon2", "Baloon3", "Baloon4", "Baloon5"};
 
-        for (int counter = 0; counter < Array.length; counter++) {
-            Baloon Testbaloon = new Baloon("grün", Array[counter] = Math.random());
+        Double[] Array;
+        Array = new Double[5];
+
+
+        for (int counter = 0; counter < Array.length; counter++)
+        {
+            String[] Name = {"Baloon1", "Baloon2", "Baloon3", "Baloon4", "Baloon5"};
+            Baloon Name[counter] = new Baloon("grün", Array[counter] = Math.random());
             System.out.println("Balloon on Array Positon " + counter + " has Size " + Testbaloon.getSize());
             for (int counter1 = 0; counter1 < Array.length; counter1++) {
-                Testbaloon.blowUp(50.0);
+                Name[counter].blowUp(50.0);
                 System.out.println(Testbaloon.getSize());
             }
 
@@ -25,7 +27,7 @@ public class main {
        for (int counter = 0; counter < Array.length; counter++) {
             System.out.println("Balloon on Array Positon " + counter + " has Size" + Testbaloon.getSize());
         }
-        */
+
 
 
      //Aufgabe 4:
