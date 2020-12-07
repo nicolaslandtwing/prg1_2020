@@ -1,34 +1,34 @@
 package ch.teko.prg.tag05.W0rk;
 
+import ch.teko.prg.tag05.solution.Balloon;
+
 import java.lang.Math;
 import java.util.Arrays;
 
 public class main {
     public static void main(String[] args) {
+        //Aufgabe 3
+        Balloon[] b = new Balloon[5];
 
-        Double[] Array;
-        Array = new Double[5];
-        String[] Name = {"Baloon1", "Baloon2", "Baloon3", "Baloon4", "Baloon5"}
-
-        for (int counter = 0; counter < Array.length; counter++)
+        for (int counter = 0; counter < b.length; counter++)
         {
-            ;
-            Baloon Name[counter] = new Baloon("grün", Array[counter] = Math.random());
-            System.out.println("Balloon on Array Positon " + counter + " has Size " + Name[counter].getSize());
+            b[counter] = new Balloon("grün", (int)(Math.random()*100));
+            System.out.println("Balloon on Array Positon " + counter + " has Size " + b[counter].getSize());
         }
 
-            for (int counter = 0; counter < Array.length; counter++)
+            for (int counter = 0; counter < b.length; counter++)
             {
-                Name[counter].blowUp(50.0);
-                System.out.println(Name[counter].getSize());
+                b[counter].blowUp(50.0);
+                System.out.println(b[counter].getSize());
             }
 
-            for (int counter = 0; counter < Array.length && Name[counter].getSize()!= 0; counter++){
-                System.out.println("Balloon on Array Positon " + counter + " has Size " + Name[counter].getSize());
+            for (int counter = 0; counter < b.length && b[counter].getSize()!= 0; counter++){
+                System.out.println("Balloon on Array Positon " + counter + " has Size " + b[counter].getSize());
         }
 
-       for (int counter = 0; counter < Array.length; counter++) {
-            System.out.println("Balloon on Array Positon " + counter + " has Size" + Name[counter].getSize());
+       for (int counter = 0; counter < b.length; counter++) {
+           if (b[counter].getSize() > 0)
+           System.out.println("Balloon on Array Positon " + counter + " has Size" + b[counter].getSize());
         }
 
 
