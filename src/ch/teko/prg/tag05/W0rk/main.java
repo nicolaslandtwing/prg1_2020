@@ -8,24 +8,27 @@ public class main {
 
         Double[] Array;
         Array = new Double[5];
-
+        String[] Name = {"Baloon1", "Baloon2", "Baloon3", "Baloon4", "Baloon5"}
 
         for (int counter = 0; counter < Array.length; counter++)
         {
-            String[] Name = {"Baloon1", "Baloon2", "Baloon3", "Baloon4", "Baloon5"};
+            ;
             Baloon Name[counter] = new Baloon("grün", Array[counter] = Math.random());
-            System.out.println("Balloon on Array Positon " + counter + " has Size " + Testbaloon.getSize());
-            for (int counter1 = 0; counter1 < Array.length; counter1++) {
+            System.out.println("Balloon on Array Positon " + counter + " has Size " + Name[counter].getSize());
+        }
+
+            for (int counter = 0; counter < Array.length; counter++)
+            {
                 Name[counter].blowUp(50.0);
-                System.out.println(Testbaloon.getSize());
+                System.out.println(Name[counter].getSize());
             }
 
-            for (int counter2 = 0; counter2 < Array.length && Testbaloon.getSize()!= 0; counter2++){
-                System.out.println("Balloon on Array Positon " + counter2 + " has Size " + Testbaloon.getSize());
+            for (int counter = 0; counter < Array.length && Name[counter].getSize()!= 0; counter++){
+                System.out.println("Balloon on Array Positon " + counter + " has Size " + Name[counter].getSize());
         }
 
        for (int counter = 0; counter < Array.length; counter++) {
-            System.out.println("Balloon on Array Positon " + counter + " has Size" + Testbaloon.getSize());
+            System.out.println("Balloon on Array Positon " + counter + " has Size" + Name[counter].getSize());
         }
 
 
