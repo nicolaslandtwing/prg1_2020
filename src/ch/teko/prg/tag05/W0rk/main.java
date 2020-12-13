@@ -16,13 +16,14 @@ public class main {
             System.out.println("Balloon on Array Positon " + counter + " has Size " + b[counter].getSize());
         }
 
-            for (int counter = 0; counter < b.length; counter++)
-            {
+        for (int counter = 0; counter < b.length; counter++)
+        {
                 b[counter].blowUp(50.0);
                 System.out.println(b[counter].getSize());
-            }
+        }
 
-            for (int counter = 0; counter < b.length && b[counter].getSize()!= 0; counter++){
+        for (int counter = 0; counter < b.length && b[counter].getSize()!= 0; counter++)
+        {
                 System.out.println("Balloon on Array Positon " + counter + " has Size " + b[counter].getSize());
         }
 
@@ -31,12 +32,10 @@ public class main {
            System.out.println("Balloon on Array Positon " + counter + " has Size" + b[counter].getSize());
         }
 
-
-
      //Aufgabe 4:
-        double [] squares = {0,1,2,3,4,5,6,7,8,9};
+        double [] squares = {0,1,2,3,4,5,6,7,8,9}; //ODER  double[] squares =new double[10];
             for (int zahler = 0; zahler < squares.length; zahler++){
-                squares[zahler] = squares[zahler]* squares[zahler];
+                squares[zahler] = squares[zahler]* squares[zahler]; //ODER squares [zahler] = zahler + zahler;
             }
             for (int zahler = 0; zahler < squares.length; zahler++){
                 System.out.println("Das Quadrat von " + zahler + " ist " + squares[zahler]);

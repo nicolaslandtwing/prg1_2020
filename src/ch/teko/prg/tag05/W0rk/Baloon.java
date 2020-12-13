@@ -26,12 +26,13 @@ public class Baloon {
     }
 
     public double blowUp (double size){
-        if (size >= 0.0 && size <=100.0){
-            return size;
+        if (getSize()+size > 100.0){
+            this.size=0;
         }
         else {
-            size = 0;
-            return size;
+            this.size = getSize()+size;
+            return getSize();
         }
+        return size;
     }
 }
